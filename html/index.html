@@ -1,73 +1,126 @@
 <!DOCTYPE html>
 <html>
 <header class="header">
+    <!--Stylesheet in the header to load the page with a design quickly -->
     <link rel="stylesheet" type="text/css" href="styles.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 </header>
-<div class="nav">
-    <title>Website Design</title>
-</div>
+<body>
+<header class="navbar-inverse">
+    <div class="container">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
 
-<div class="body">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
 
-    <h1>Heading 1</h1>
+    </div>
+</header>
+<div class="container">
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas massa nec scelerisque vestibulum. Donec
-        auctor porttitor odio, non congue urna laoreet vitae. Nam dapibus risus in velit consectetur eleifend. Donec
-        dignissim ut mi fermentum fringilla. Donec sed velit vestibulum, sodales enim consectetur, imperdiet nisi.
-        Pellentesque blandit lacus at nulla consequat molestie ut a velit. Aliquam et tellus consequat, consectetur
-        velit quis, ultricies mauris. Nam eu quam ac ante auctor tristique non accumsan massa.
-
-        Etiam tempor tempus lacus, eget finibus orci aliquet non. Sed sit amet dolor fermentum, pharetra erat at, rutrum
-        ipsum. Sed non risus felis. Aenean sapien leo, ultricies mattis fringilla et, pellentesque ut augue. Aliquam
-        sagittis egestas libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-        himenaeos. Proin eleifend nisl quam, eget ultricies dolor maximus nec. Maecenas pellentesque elit in nisi
-        volutpat, auctor condimentum dui dignissim. Praesent vel nulla ut ipsum pharetra ullamcorper. Nunc neque tellus,
-        bibendum id venenatis at, tristique et lectus. Duis tempor ullamcorper iaculis.
-
-        Curabitur non erat placerat nibh interdum consectetur. Nullam tristique nisi quis nibh viverra, non iaculis diam
-        tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin dictum urna ut sodales tristique. Maecenas
-        elementum ex ut sem consequat, non commodo magna ultrices. Pellentesque aliquet vel libero non viverra. Proin in
-        massa ante. Pellentesque in dui sit amet magna cursus semper non a purus. Suspendisse venenatis, mauris
-        tincidunt iaculis hendrerit, diam dui mollis nibh, eu porttitor neque dui sit amet nunc.
-
-        Aliquam ac massa sed quam hendrerit auctor vitae quis sem. Ut condimentum lacus urna, sed fringilla risus
-        fringilla vel. Sed eu lectus eget quam vestibulum congue sit amet id nisi. Ut fermentum purus a urna rutrum
-        pellentesque in et dolor. In eget est leo. Maecenas ultricies congue urna, vitae auctor justo maximus sit amet.
-        Morbi eget lorem in ante malesuada dapibus. Maecenas fringilla placerat odio eu pretium.
-
-        Mauris at tempus lorem. Aliquam erat volutpat. Sed consequat, nibh sed imperdiet accumsan, dolor velit tristique
-        mauris, at euismod enim erat eu magna. Curabitur vehicula, orci sed vestibulum feugiat, nisi augue sollicitudin
-        leo, eu ornare metus eros a augue. Nunc fermentum lacinia venenatis. Morbi lorem dolor, maximus placerat dictum
-        eget, blandit quis nulla. Aliquam hendrerit neque commodo, tristique ex eget, maximus arcu. Aliquam erat
-        volutpat. Vivamus sed purus sed arcu placerat maximus. Vivamus nec nisi et dolor mollis aliquet. Ut malesuada
-        velit quis cursus pharetra. Praesent aliquam accumsan vehicula. In facilisis iaculis neque, ut porta elit
-        bibendum vel. Aliquam laoreet et urna ut posuere. Donec ac dolor tincidunt, condimentum lectus ac, sagittis
-        nunc.</p>
-
-    <div class="diashow">
-        INSERT AMAZING CODE ABOUT DIASHOW HERE
+    <div class="jumbotron">
+        <h1>Image title, gotta be dynamic for shown Picture / Video</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros ex, vehicula vel pharetra nec, suscipit
+            eu metus. Phasellus pretium viverra interdum. Proin et libero sed tortor consectetur consequat et vehicula
+            augue. Ut porta fermentum tellus vel iaculis. In et porta felis, non posuere mauris. In neque dolor,
+            sollicitudin vel sem id, finibus tristique urna. Sed varius purus in ipsum blandit convallis non sed purus.
+            Fusce sit amet rutrum libero. Sed pulvinar, ipsum quis facilisis gravida, urna arcu fermentum enim, in
+            egestas lacus ipsum vitae odio.
+        </p>
     </div>
 
-
-    <div class="gallery">
-        MORE PICTURES WITH THUMBNAILS
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-6">
+                <a href="#" class="thumbnail">
+                    <img src="..." alt="Thumbnails">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-6">
+                <a href="#" class="thumbnail">
+                    <img src="..." alt="Thumbnails">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-6">
+                <a href="#" class="thumbnail">
+                    <img src="..." alt="Thumbnails">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-6">
+                <a href="#" class="thumbnail">
+                    <img src="..." alt="Thumbnails">
+                </a>
+            </div>
+        </div>
     </div>
-
-    <div class="Service/Business/Contact">
+    <div class="container">
         !! DONT FORGET, CHANGE DIV NAME TO CHOOSEN ONE !!
         Contact formular, Mail, etc.
     </div>
-
-
+    <!-- Script at the bottom of the body to load functionality in the end, results in Page being shown faster -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
 </div>
-
-<footer class="footer">
-
-    COPYRIGHT SHIZZLE FOOTER
-
-</footer>
+</body>
+<div class="panel panel-default">
+    <div class="panel-body">
+        add some fancy copyright code
+    </div>
+    <div class="panel-footer">Shizzle dizzle copyright ma nizzle</div>
+</div>
 
 
 </html>
