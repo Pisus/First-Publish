@@ -10,18 +10,71 @@ body {
 
 }
 
-div.diashow{
+div.diashow {
 
 }
 
-div.gallery{
+div.gallery {
 
 }
 
-div.Service/Business/Contact{
+div.Service /Business/ Contact {
 
 }
 
-footer{
+footer {
 
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: red;
+    color: white;
+}
+
+.fa-youtube {
+    background: red;
+    color: white;
+}
+
+.fa-linkedin {
+    background: darkblue;
+    color: white;
+}
+
+.fa-instagram {
+    background: dodgerblue;
+    color: white;
+}
+
+.fa-twitch{
+    background: mediumpurple;
+    color: white;
 }
