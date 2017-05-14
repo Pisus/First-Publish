@@ -27,8 +27,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
                     <li><a href="social.html">Social</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about-us.html">About us</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                            aria-haspopup="true" aria-expanded="false">Gallery<span class="caret"></span></a>
@@ -97,18 +99,25 @@
                     </div>
                 </div>
 
-                <!-- Prepended text-->
+                <!-- Multiple Checkboxes -->
                 <div class="form-group">
                     <label class="col-md-4 control-label" for="Gender">Gender</label>
                     <div class="col-md-4">
-                        <div class="input-group">
-                            <span class="input-group-addon">Male</span>
-                            <input id="Gender" name="Gender" class="form-control" placeholder="Female" type="text"
-                                   required="">
+                        <div class="checkbox">
+                            <label for="Gender-0">
+                                <input type="checkbox" name="Gender" id="Gender-0" value="1">
+                                Male
+                            </label>
                         </div>
-                        <p class="help-block">Please select your Gender</p>
+                        <div class="checkbox">
+                            <label for="Gender-1">
+                                <input type="checkbox" name="Gender" id="Gender-1" value="2">
+                                Female
+                            </label>
+                        </div>
                     </div>
                 </div>
+
 
                 <!-- Textarea -->
                 <div class="form-group">
