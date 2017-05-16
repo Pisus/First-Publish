@@ -30,13 +30,13 @@
                     <li><a href="#">Link <span class="sr-only">(current)</span></a></li>
                     <li><a href="social.html">Social</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
-                    <li class="active"><a href="about-us.html">About us</a></li>
-                    <li class="dropdown">
+                    <li><a href="about-us.html">About us</a></li>
+                    <li class="dropdown-active">
                         <a href="gallery.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
                            aria-haspopup="true" aria-expanded="false">Gallery<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="gallery-images.html">Images</a></li>
-                            <li><a href="gallery-videos">Videos</a></li>
+                            <li><a href="gallery-videos.htmll">Videos</a></li>
                             <li role="separator" class="divider"></li>
                             <li><a href="#">Separated link</a></li>
                             <li role="separator" class="divider"></li>
@@ -61,25 +61,30 @@
 <div class="container">
 
     <div class="jumbotron">
-        <h1>About Us</h1>
+        <div class="media">
+            <img class="media-object" src="..." alt="Huge Image">
+        </div>
+    </div>
+
+    <div class="container">
         <div class="row">
-            <div class="col-lg-6">
-
+            <div class="col-xs-6 col-md-6">
+                <h2>Images</h2>
+                <a href="#" class="thumbnail">
+                    <img src="..." alt="Thumbnails">
+                </a>
             </div>
-            <div class="col-lg-6">
-
+            <div class="col-xs-6 col-md-6">
+                <h2>Videos</h2>
+                <a href="#" class="thumbnail">
+                    <img src="..." alt="Thumbnails">
+                </a>
             </div>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros ex, vehicula vel pharetra nec, suscipit
-            eu metus. Phasellus pretium viverra interdum. Proin et libero sed tortor consectetur consequat et vehicula
-            augue. Ut porta fermentum tellus vel iaculis. In et porta felis, non posuere mauris. In neque dolor,
-            sollicitudin vel sem id, finibus tristique urna. Sed varius purus in ipsum blandit convallis non sed purus.
-            Fusce sit amet rutrum libero. Sed pulvinar, ipsum quis facilisis gravida, urna arcu fermentum enim, in
-            egestas lacus ipsum vitae odio.
-        </p>
+    </div>
+    <div class="container">
 
-
-
+    </div>
     <!-- Script at the bottom of the body to load functionality in the end, results in Page being shown faster -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
